@@ -50,7 +50,7 @@ To set up the cron job:
 
 3. This cron job executes the script everyday at 7:30 AM and print the result to a log file:
 ```
-*/30 7 * * * cd /YOUR_PATH ; /PYTHON3_PATH  main.py > /YOUR_PATH/repport.log 2>&1
+30 7 * * * cd /YOUR_PATH ; /PYTHON3_PATH  main.py > /YOUR_PATH/repport.log 2>&1
 ```
 
 ## Sample output:
